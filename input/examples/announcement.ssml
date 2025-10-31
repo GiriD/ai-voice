@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" 
+       xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+    <voice name="en-US-JennyNeural">
+        <!-- Excited announcement -->
+        <p>
+            <mstts:express-as style="excited">
+                <prosody rate="1.2" pitch="+8%" volume="+15%">
+                    <emphasis level="strong">Attention everyone!</emphasis>
+                    <break time="500ms" />
+                    We have some <emphasis level="strong">incredible</emphasis> news to share!
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="800ms" />
+        
+        <!-- Newscast formal style -->
+        <p>
+            <mstts:express-as style="newscast-formal">
+                <prosody rate="0.95" pitch="0%">
+                    The latest innovation in artificial intelligence has just been unveiled.
+                    <break strength="medium" />
+                    This groundbreaking technology will transform how we interact with computers.
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="600ms" />
+        
+        <!-- Cheerful promotional tone -->
+        <p>
+            <mstts:express-as style="cheerful">
+                <prosody rate="1.1" pitch="+5%">
+                    Don't miss out on this <emphasis level="strong">amazing opportunity</emphasis>!
+                    <break time="400ms" />
+                    Visit our website today at 
+                    <prosody rate="0.8">
+                        <say-as interpret-as="characters">www</say-as> dot example dot com
+                    </prosody>
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="500ms" />
+        
+        <!-- Hopeful closing -->
+        <p>
+            <mstts:express-as style="hopeful">
+                <prosody rate="0.95" pitch="+2%">
+                    We can't wait to see you there!
+                    <break time="300ms" />
+                    Together, we'll shape the future.
+                </prosody>
+            </mstts:express-as>
+        </p>
+    </voice>
+</speak>

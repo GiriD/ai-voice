@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" 
+       xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+    <voice name="en-US-AvaMultilingualNeural">
+        <!-- Introduction in English -->
+        <p>
+            <mstts:express-as style="assistant">
+                <prosody rate="0.9">
+                    Welcome to our multilingual demo.
+                    <break time="500ms" />
+                    I can speak in several languages.
+                    <break time="400ms" />
+                    Listen to these examples:
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="800ms" />
+        
+        <!-- French greeting -->
+        <p>
+            <lang xml:lang="fr-FR">
+                <prosody rate="0.95" pitch="+2%">
+                    Bonjour! <break time="300ms" />
+                    Comment allez-vous aujourd'hui?
+                </prosody>
+            </lang>
+        </p>
+        
+        <break time="600ms" />
+        
+        <!-- Spanish greeting -->
+        <p>
+            <lang xml:lang="es-ES">
+                <prosody rate="0.95" pitch="+2%">
+                    ¡Hola! <break time="300ms" />
+                    ¿Cómo está usted hoy?
+                </prosody>
+            </lang>
+        </p>
+        
+        <break time="600ms" />
+        
+        <!-- German greeting -->
+        <p>
+            <lang xml:lang="de-DE">
+                <prosody rate="0.95" pitch="+2%">
+                    Guten Tag! <break time="300ms" />
+                    Wie geht es Ihnen heute?
+                </prosody>
+            </lang>
+        </p>
+        
+        <break time="600ms" />
+        
+        <!-- Italian greeting -->
+        <p>
+            <lang xml:lang="it-IT">
+                <prosody rate="0.95" pitch="+2%">
+                    Buongiorno! <break time="300ms" />
+                    Come sta oggi?
+                </prosody>
+            </lang>
+        </p>
+        
+        <break time="800ms" />
+        
+        <!-- Back to English conclusion -->
+        <p>
+            <mstts:express-as style="friendly">
+                <prosody rate="0.9">
+                    Multilingual voices make global communication <emphasis level="moderate">seamless</emphasis> and natural.
+                    <break time="400ms" />
+                    Thank you for listening!
+                </prosody>
+            </mstts:express-as>
+        </p>
+    </voice>
+</speak>

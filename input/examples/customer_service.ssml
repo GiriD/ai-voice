@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" 
+       xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
+    <voice name="en-US-AriaNeural">
+        <!-- Greeting with cheerful style -->
+        <p>
+            <mstts:express-as style="cheerful">
+                <prosody rate="0.95" pitch="+2%">
+                    Hello! <break time="300ms" />
+                    Thank you for calling our <emphasis level="moderate">customer support</emphasis> line.
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="500ms" />
+        
+        <!-- Professional customer service tone -->
+        <p>
+            <mstts:express-as style="customerservice">
+                <prosody rate="0.9">
+                    My name is Aria, and I'll be happy to assist you today.
+                    <break strength="medium" />
+                    How may I help you?
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="800ms" />
+        
+        <!-- Empathetic response -->
+        <p>
+            <mstts:express-as style="empathetic">
+                <prosody rate="0.85" pitch="-1%">
+                    I understand that can be <emphasis level="strong">frustrating</emphasis>.
+                    <break time="400ms" />
+                    Let me help you resolve this issue right away.
+                </prosody>
+            </mstts:express-as>
+        </p>
+        
+        <break time="600ms" />
+        
+        <!-- Friendly closing -->
+        <p>
+            <mstts:express-as style="friendly">
+                <prosody rate="0.95">
+                    Is there anything else I can help you with today?
+                    <break time="500ms" />
+                    We appreciate your business!
+                </prosody>
+            </mstts:express-as>
+        </p>
+    </voice>
+</speak>
